@@ -14,7 +14,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      TF_VAR_api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      TF_VAR_cloudflare_api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      TF_VAR_cloudflare_zone_id: ${{ secrets.CLOUDFLARE_ZONE_ID }}
 
     steps:
       - name: Checkout repository
