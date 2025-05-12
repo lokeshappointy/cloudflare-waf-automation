@@ -20,3 +20,5 @@ resource "cloudflare_ruleset" "dictionary_attack_waf" {
     enabled     = true
   }
 }
+
+# try github actions
