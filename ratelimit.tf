@@ -20,3 +20,5 @@ resource "cloudflare_ruleset" "rate_limit" {
     expression = "true"
   }
 }
+
+# A simple comment
